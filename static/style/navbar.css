@@ -1,0 +1,36 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15em;
+    background-color: rgb(162, 221, 211);
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar>div:hover{
+    background: rgb(199, 199, 199);
+    color: azure;
+    cursor: pointer;
+}
+.soc{
+    width: 88%;
+}
+.info-bar{
+    border-style: solid;
+    border-width: 0.5px;
+    width: 12%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.photki{
+    text-align: center;
+}
+.photki>.pho1{
+    width: 100%;
+}
+.info-bar>p{
+    text-align: center;
+}
